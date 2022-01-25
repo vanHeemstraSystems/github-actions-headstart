@@ -24,8 +24,6 @@ Our action will use a Docker container so it will require a `Dockerfile`. Let's 
    - If you're working locally, you will also need stage your file and to push the branch to GitHub.
 3. Open a pull request with your new branch against `main`
 
-<hr>
-
 4. Nice work, you committed a `Dockerfile`. You'll notice at the end of the Dockerfile, we refer to an entrypoint script.
 
 ```Dockerfile
