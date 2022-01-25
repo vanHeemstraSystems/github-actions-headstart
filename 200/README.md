@@ -8,7 +8,7 @@ See [README.md](./100/README.md)
 
 See [README.md](./200/README.md)
 
-## 3100 - Add an action.yml file
+## 300 - Add an action.yml file
 
 See [README.md](./300/README.md)
 
