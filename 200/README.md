@@ -27,6 +27,29 @@ To learn even more, check out the [GitHub Actions feature page](https://github.c
 
 In this course you will work with issues and pull requests, as well as edit files. If these things are not familiar to you, we recommend you take the [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) course, first!
 
+### Actions and Workflows
+
+There are two components to using GitHub Actions that we'll cover:
+
+- the **action** itself
+- a **workflow** that uses action(s)
+
+A workflow can contain many actions. Each action has its own purpose. We'll put the files relating to the action in their own directories.
+
+### Types of Actions
+
+Actions come in two types: **container actions** and **JavaScript actions**.
+
+Docker **container actions** allow the environment to be packaged with the GitHub Actions code and can only execute in the GitHub-Hosted Linux environment.
+
+**JavaScript actions** decouple the GitHub Actions code from the environment allowing faster execution but accepting greater dependency management responsibility.
+
+<!--
+UNCOMMENT WHEN THESE TWO COURSE GO LIVE AND ADD PROPER LINK DETAILS
+📖 To learn more about creating each type of action, refer to the related learning lab course:
+  - [Writing JavaScript Actions]()
+  - [Writing Docker Container Actions]() -->
+
 ## 100 - Add a Dockerfile
 
 See [README.md](./100/README.md)
