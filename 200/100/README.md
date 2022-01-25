@@ -20,10 +20,17 @@ Our action will use a Docker container so it will require a `Dockerfile`. Let's 
    ENTRYPOINT ["/entrypoint.sh"]
    ```
 
-1. Commit your file
+2. Commit your file
    - If you're working locally, you will also need stage your file and to push the branch to GitHub.
-1. Open a pull request with your new branch against `main`
+3. Open a pull request with your new branch against `main`
 
 <hr>
-<h3 align="center">I'll respond in your new pull request with next steps.</h3>
+
+4. Nice work, you committed a `Dockerfile`. You'll notice at the end of the Dockerfile, we refer to an entrypoint script.
+
+```Dockerfile
+ENTRYPOINT ["/entrypoint.sh"]
+```
+
+The `entrypoint.sh` script will be run in Docker, and it will define what the action is really going to be doing.
 
